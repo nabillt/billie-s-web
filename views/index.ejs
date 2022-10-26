@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<div class="box">
+		<form class="login-form" action="/submit" method="post">
+			<h1>Login</h1>
+			<input type="text" name="usr" placeholder="Username" >
+			<input type="email" name="eml" placeholder="Email" >
+			<input type="password" name="pw" placeholder="Password">
+			<div class="links">
+				<a href="/interface">Sign Up</a></hd>
+				<button>Add data</button>
+			</div>
+		</button>
+		</form>
+		
+		<table class="tabel">
+			<tr>
+				<td><% for(const n of siswa) { %>
+					<%= n.nama%> ,
+					<% } %></hd>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>

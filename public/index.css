@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}			body{
+    background-image:url('https://images.pexels.com/photos/6331032/pexels-photo-6331032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+}
+
+h1{
+    text-decoration: wavy;
+    font-size:170%;
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+    margin-top: 30px;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+    font-size:170%;
+}
+form{
+    align-items: center;
+}
+fieldset{
+    color: black;
+}
+header{
+    color: aliceblue;
+    font-style: oblique;
+    font-family: 'Trebuchet MS';
+    font-size: 200%;
+
+}
+footer{
+    color: aliceblue;
+    font-family:'Trebuchet MS';
+}
+h5{
+    color: aliceblue;
+    font-family:'Trebuchet MS';
+}
+* {
+    margin:0; 
+    padding:0;
+}
+
+nav {
+text-align: right;
+width: 97%;
+font-family:'Trebuchet MS';
+
+} 
+
+nav ul {
+background:#000000a8;
+padding: 0 20px;
+list-style: none;
+position: relative;
+display: inline-table;
+width: 100%;
+}
+
+nav ul li{
+float:right;
+}
+
+nav ul li:hover{
+background:#e98f6800;
+}
+
+nav ul li:hover a{
+    color:rgb(255, 255, 255);
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+div{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+label{
+    color: aliceblue;
+}
+button{
+    background:#f7f7f7;
+color:white;
+border-top:0;
+border-left:0;
+border-right:0;
+border-bottom:5px solid #ece6e6;
+padding:10px 20px;
+text-decoration:none;
+font-family:sans-serif;
+font-size:11pt;
+border: none;
+}
+footer{
+    color: black;
+}
